@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %} RESUMEN{%endblock title %}
+{% block content %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'polls/resumen.css' %}">
+<h1 class="text-center">Educación</h1>
+<section id="timeline">
+    <article>
+        <div class="inner">
+            <span class="date">
+                <span class="day"><sup></sup></span>
+                <span class="month"></span>
+                <span class="year">2024</span>
+            </span>
+            <h2>Bootcamp</h2>
+            <p>Desarrollo de aplicaciones Full Stack Python Trainee V2.0</p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+            <span class="date">
+                <span class="day"><sup></sup></span>
+                <span class="month"></span>
+                <span class="year">2015-2022</span>
+            </span>
+            <h2>Universidad Santo Tomás</h2>
+            <p>Enfermería.</p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+            <span class="date">
+                <span class="day"><sup></sup></span>
+                <span class="month"></span>
+                <span class="year">2002-2013</span>
+            </span>
+            <h2>Colegio San Viator Macul</h2>
+            <p>Enseñanza básica y media. Cientifico-Humanista</p>
+        </div>
+    </article>
+    <h1>Experiencia</h1>
+    <h5>Practicas / Internados 2015-2022</h5>
+    <li>Recepción y atención al cliente</li>
+    <li>Registro de antecedentes de salud de usuarios en programa Rayén</li>
+    <li>Diseño y realización de proyectos</li>
+
+{% endblock content %}

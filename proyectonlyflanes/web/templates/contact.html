@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %} CONTACTO {%endblock title %}
+{% block content %}
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/contacto.css' %}">
+
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<div class="wrapper">
+    <h1>
+        <span>¿Iniciamos un proyecto?</span>
+        <br>
+        <span>CONTACTAME</span>
+    </h1>
+    <br>
+    <div class="list">
+        <ul>
+            <li><a href="https://facebook.com/" class="facebook" target="_blank"><i
+                        class="fa fa-facebook fa-2x"></i></a></li>
+            <li><a href="https://twitter.com/" class="twitter" target="_blank"><i
+                        class="fa fa-twitter fa-2x"></i></a></li>
+            <li><a href="https://instagram.com/" class="instagram" target="_blank"><i
+                        class="fa fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://linkedin.com/" class="linkedin" target="_blank"><i
+                        class="fa fa-linkedin fa-2x"></i></a></li>
+        </ul>
+    </div>
+</div>
+<br>
+<br>
+{% endblock content %}

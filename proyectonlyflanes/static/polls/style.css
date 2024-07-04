@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(to right, #FF9A60, #FF7558);
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    color: #cfcfcf;
+}
+
+h1,
+h2 {
+    color: orange;
+}
+
+.wrap {
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin-top: 100px;
+
+    .img {
+        width: 45%;
+        height: 500px;
+        float: right;
+        margin-top: -50px;
+        margin-right: 20px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        background-image: url("");
+        background-size: cover;
+        background-position: 67%;
+    }
+
+
+
+
+    .txt-img {
+        width: 45%;
+        padding: 20px;
+        text-align: center;
+
+        .divider {
+            width: 20%;
+        }
+
+        p {
+            margin-bottom: 2em;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: #fff;
+            background-color: #ADADAD;
+            padding: 10px 70px;
+            transition: all .3s ease-in-out;
+            border-radius: 5px;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+
+        .btn-orange {
+            background-color: orange;
+
+            &:hover {
+                background-color: #FF5733;
+                font-size: 18px;
+            }
+
+        }
+    }
+}
