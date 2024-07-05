@@ -1,3 +1,4 @@
+
 body {
     background: linear-gradient(to right, #FF9A60, #FF7558);
 }
@@ -23,20 +24,17 @@ h2 {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     margin-top: 100px;
 
-    .img {
+    .img-artista {
         width: 45%;
         height: 500px;
         float: right;
         margin-top: -50px;
         margin-right: 20px;
         box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-        background-image: url("");
+        background-image: url('https://raw.githubusercontent.com/Clautapiay/IMG/master/Claudia.jpeg');
         background-size: cover;
         background-position: 67%;
     }
-
-
-
 
     .txt-img {
         width: 45%;
